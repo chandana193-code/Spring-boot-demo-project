@@ -11,4 +11,8 @@ public class Test2Controller {
 		return "Hello Chandana";
 	}
 
+	@GetMapping("/getmessage")
+	public String getmessage() {
+		return "Hello Chandana";
+	}
 }

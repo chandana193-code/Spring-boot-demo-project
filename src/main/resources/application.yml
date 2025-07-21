@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: Day1
+server:
+  port: 9090
+custom:
+ message: "Hello from Spring Boot YAML!"

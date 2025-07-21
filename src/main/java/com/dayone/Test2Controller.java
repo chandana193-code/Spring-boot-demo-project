@@ -15,4 +15,10 @@ public class Test2Controller {
 	public String getmessage() {
 		return "Hello Chandana";
 	}
+
+	
+	@PostMapping("/postMessage")
+	public String postmessage() {
+		return "Hello Chandana";
+	}
 }
